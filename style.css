@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.topPage {
+  display: flex;
+  background-color: rgb(27, 165, 165);
+  box-shadow: 0px 1px rgba(56, 56, 56, 0.315);
+  padding: 0.75%;
+}
+
+.icon {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+
+  text-decoration: none;
+  color: #fff;
+}
+
+.icon:hover {
+  text-decoration: none;
+  transform: rotate(9deg);
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 22px;
+  margin-left: 8px;
+}
+
+.aboutSection {
+  margin: 5.5% 5.5% 0 5.5%;
+  padding: 2.5%;
+  display: block;
+  box-shadow: 1px 1px 1px 1px rgba(56, 56, 56, 0.4);
+  border-radius: 25px;
+}
+
+.aboutSubtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+}
+
+.infoParagraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin-top: 1%;
+}
+
+.secondaryContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactSection {
+  margin: 2.5% 5.5% 0 5.5%;
+  padding: 2.5%;
+  display: block;
+  box-shadow: 1px 1px 1px 1px rgba(56, 56, 56, 0.4);
+  border-radius: 25px;
+  width: 45%;
+}
+
+.contactSubtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+}
+
+.contactForm {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.email,
+.content {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin-top: 1%;
+  outline: none;
+  border: 0;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+
+.submitButton {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin-top: 1%;
+  border: rgba(56, 56, 56, 0.6);
+  background-color: rgb(27, 165, 165);
+  color: #fff;
+  border-radius: 5px;
+  width: 65px;
+}
+
+.submitButton:hover {
+  background-color: rgb(25, 146, 146);
+}
+
+.getOnSection {
+  margin: 2.5% 5.5% 0 0;
+  padding: 2.5%;
+  display: block;
+  box-shadow: 1px 1px 1px 1px rgba(56, 56, 56, 0.4);
+  border-radius: 25px;
+  width: 35%;
+}
+
+.getOnSubtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  margin-bottom: 2%;
+}
+
+.googlePlay,
+.appStore {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+}
+
+.googlePlayText,
+.appStoreText {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  padding: 5px;
+  border: 1px solid rgba(56, 56, 56, 0.4);
+}
+
+.appStoreText {
+  padding-right: 23px;
+}
+
+.googlePlayArrow,
+.appStoreArrow {
+  color: #fff;
+  background-color: rgb(27, 165, 165);
+  padding: 5px;
+  text-decoration: none;
+}

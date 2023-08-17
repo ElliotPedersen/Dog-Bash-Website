@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog Bash</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  />
+</head>
+
+<body>
+  <div class="topPage">
+    <a class="material-symbols-outlined icon" href="" target="_blank">
+      sound_detection_dog_barking
+    </a>
+    <h1 class="title">Dog Bash</h1>
+  </div>
+
+  <div class="aboutSection">
+    <h2 class="aboutSubtitle">About Dog Bash</h2>
+
+    <p class="infoParagraph">
+      Dog Bash is a application for your phone that helps with your dogtraining.
+      It is meant to be used as a tool for when you want to practice meeting
+      other dogs or dog owners with your dog. You can share your location with
+      other owners in your area by clicking on the "Share Location" button and
+      then send push notifications to them and ask if they want to practice with
+      you. It can also be used as a tool if you currently don't want to be
+      approached by another dog by simply stating that in your profile. For
+      example if your dog is reactive you can put that in your profile so other
+      owners know what to do and what to expect. Sometimes you might want to
+      practice just passing another dog, just send a notification to another
+      owner and ask if they are interested in practicing with you. Maybe that is
+      the beginning of you and your dog finding your new best friends.
+    </p>
+  </div>
+
+  <div class="secondaryContent">
+    <div class="contactSection">
+      <h2 class="contactSubtitle">Contact</h2>
+      <form class="contactForm" onsubmit="sendEmail(); reset(); return false;">
+        <input
+          type="email"
+          class="email"
+          name="email"
+          placeholder="Your E-mail"
+          required
+        />
+        <textarea
+          class="content"
+          rows="4"
+          placeholder="How can we help?"
+          required
+        ></textarea>
+        <button type="submit" class="material-symbols-outlined submitButton">send</button>
+      </form>
+    </div>
+
+    <div class="getOnSection">
+      <h2 class="getOnSubtitle">Get it on</h2>
+      <div class="googlePlay">
+        <a class="googlePlayText">Google Play</a>
+        <a
+          class="material-symbols-outlined googlePlayArrow"
+          href="https://play.google.com/store/games?device=windows&pli=1"
+          target="_blank"
+          >arrow_right_alt</a
+        >
+      </div>
+      <div class="appStore">
+        <a class="appStoreText">App Store</a>
+        <a
+          class="material-symbols-outlined appStoreArrow"
+          href="https://www.apple.com/se/app-store/"
+          target="_blank"
+          >arrow_right_alt</a
+        >
+      </div>
+    </div>
+  </div>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="script.js"></script>
+</body>
